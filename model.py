@@ -367,7 +367,7 @@ class Decoder(nn.Module):
 #    4. Replace "YOUR_GDRIVE_FILE_ID_HERE" below with that id
 # ══════════════════════════════════════════════════════════════════════
 
-GDRIVE_FILE_ID      = "YOUR_GDRIVE_FILE_ID_HERE"   # ← replace before submission
+GDRIVE_FILE_ID      = "1CYFiCWmBSz7nL6nWWQF0XtrhgD30ODfs"   # ← replace before submission
 CHECKPOINT_FILENAME = "best_checkpoint.pt"
 
 
