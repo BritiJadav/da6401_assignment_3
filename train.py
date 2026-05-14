@@ -453,13 +453,13 @@ def run_training_experiment() -> None:
         6. Final BLEU on test set
     """
     config = {
-        'd_model':      256,
-        'N':            3,
+        'd_model':      512,
+        'N':            6,
         'num_heads':    8,
-        'd_ff':         512,
-        'dropout':      0.3,
-        'warmup_steps': 2000,
-        'num_epochs':   50,
+        'd_ff':         2048,
+        'dropout':      0.1,
+        'warmup_steps': 4000,
+        'num_epochs':   20,
         'batch_size':   128,
         'min_freq':     2,
         'label_smooth': 0.1,
