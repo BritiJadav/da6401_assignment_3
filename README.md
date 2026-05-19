@@ -18,7 +18,7 @@ In this assignment, I have implemented the landmark architecture from the paper 
 This project implements the full Transformer architecture as described in [Vaswani et al., 2017](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf), including:
 
 - **Scaled Dot-Product Attention** - `Attention(Q, K, V) = softmax(QK^t / √d_k) * V`
-- **Multi-Head Attention** - 8 parallel attention heads (implemented from scratch, no 'nn.MultiheadAttention')
+- **Multi-Head Attention** - 8 parallel attention heads (implemented from scratch, no `nn.MultiheadAttention`)
 - **Sinusoidal Positional Encoding** - fixed frequency-based position representations
 - **Encoder Stack** - 3 layers of Multi-Head Attention + Feed-Forward Network + Add & Norm
 - **Decoder Stack** - 3 layers of Masked Self-Attention + Cross-Attention + FFN + Add & Norm
