@@ -6,7 +6,7 @@ In this assignment, I will implement the landmark architecture from the paper "A
 
 ## Github Link
 
-[Github link](https://github.com/BritiJadav/da6401_assignment_2)
+[Github link](https://github.com/BritiJadav/da6401_assignment_3)
 
 ## W&B Report Link
 
