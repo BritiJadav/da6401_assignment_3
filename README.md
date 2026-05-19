@@ -10,7 +10,7 @@ In this assignment, I will implement the landmark architecture from the paper "A
 
 ## W&B Report Link
 
-[Wandb Report Link](https://wandb.ai/britisundarghatak100-iit-madras/da6401-assignment-2/reports/da6401_Assignment_2--VmlldzoxNjQ4ODM0MA?accessToken=lk9wwi6vjezfpggd25ioowbw54n3vvl3qnj4ujirpa6wqh6uno6va27a8k2ovwfg)
+[Wandb Report Link](https://wandb.ai/britijadav-indian-institute-of-technology-madras/da6401_Assignment_3/reports/da6401_assignment_3--VmlldzoxNjkwNjExNA)
 
 
 ## Architecture
