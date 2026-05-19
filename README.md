@@ -4,6 +4,14 @@
 
 In this assignment, I will implement the landmark architecture from the paper "Attention Is All You Need" from scratch using PyTorch. Transitioning from the convolutional neural networks used in previous assignments, I will now build a purely attention-based sequence-to-sequence model. The goal is to develop a Neural Machine Translation (NMT) system capable of translating text from German to English.
 
+## Github Link
+
+[Github link](https://github.com/BritiJadav/da6401_assignment_2)
+
+## W&B Report Link
+
+[Wandb Report Link](https://wandb.ai/britisundarghatak100-iit-madras/da6401-assignment-2/reports/da6401_Assignment_2--VmlldzoxNjQ4ODM0MA?accessToken=lk9wwi6vjezfpggd25ioowbw54n3vvl3qnj4ujirpa6wqh6uno6va27a8k2ovwfg)
+
 
 ## Architecture
 
@@ -68,16 +76,6 @@ pip install -r requirements.txt
 python -m spacy download de_core_news_sm
 python -m spacy download en_core_web_sm
 ```
-
-
-## W&B Report
-
-All experiments are documented in the public W&B report including:
-- Noam Scheduler vs Fixed Learning Rate comparison
-- Ablation study on the √(1/dₖ) scaling factor
-- Attention head specialization heatmaps
-- Sinusoidal PE vs Learned Positional Embeddings
-- Label Smoothing ε=0.1 vs ε=0.0 analysis
 
 
 ## Dependencies
