@@ -80,7 +80,7 @@ python -m spacy download en_core_web_sm
 
 ## Dependencies
 
-- `torch` - Model implementation and training
+- torch - Model implementation and training
 - `spacy` - German and English tokenization
 - `datasets` - Multi30k dataset loading
 - `sacrebleu` - BLEU score evaluation
