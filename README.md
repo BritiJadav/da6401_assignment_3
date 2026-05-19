@@ -52,14 +52,14 @@ This project implements the full Transformer architecture as described in [Vaswa
 
 
 ## Project Structure
-
+```
 ├── model.py          # Transformer architecture (Encoder, Decoder, Attention)
 ├── dataset.py        # Multi30k dataset loading and spaCy tokenization
 ├── train.py          # Training loop, greedy decoding, BLEU evaluation
 ├── lr_scheduler.py   # Noam learning rate scheduler
 ├── requirements.txt  # Dependencies
 └── README.md         # This file
-
+```
 
 ## Installation
 
