@@ -4,7 +4,6 @@
 
 In this assignment, I will implement the landmark architecture from the paper "Attention Is All You Need" from scratch using PyTorch. Transitioning from the convolutional neural networks used in previous assignments, I will now build a purely attention-based sequence-to-sequence model. The goal is to develop a Neural Machine Translation (NMT) system capable of translating text from German to English.
 
----
 
 ## Architecture
 
@@ -18,7 +17,6 @@ This project implements the full Transformer architecture as described in [Vaswa
 - **Label Smoothing** — ε = 0.1 to prevent over-confident predictions
 - **Noam Scheduler** — linear warmup followed by inverse square root decay
 
----
 
 ## Dataset
 
@@ -44,7 +42,6 @@ This project implements the full Transformer architecture as described in [Vaswa
 | `epochs` | 60 |
 | `label_smoothing` | 0.1 |
 
----
 
 ## Results
 
@@ -53,20 +50,16 @@ This project implements the full Transformer architecture as described in [Vaswa
 | Test BLEU Score | **42.88** |
 | Best Checkpoint Epoch | 2 |
 
----
 
 ## Project Structure
 
-```
 ├── model.py          # Transformer architecture (Encoder, Decoder, Attention)
 ├── dataset.py        # Multi30k dataset loading and spaCy tokenization
 ├── train.py          # Training loop, greedy decoding, BLEU evaluation
 ├── lr_scheduler.py   # Noam learning rate scheduler
 ├── requirements.txt  # Dependencies
 └── README.md         # This file
-```
 
----
 
 ## Installation
 
@@ -76,7 +69,6 @@ python -m spacy download de_core_news_sm
 python -m spacy download en_core_web_sm
 ```
 
----
 
 ## W&B Report
 
@@ -87,7 +79,6 @@ All experiments are documented in the public W&B report including:
 - Sinusoidal PE vs Learned Positional Embeddings
 - Label Smoothing ε=0.1 vs ε=0.0 analysis
 
----
 
 ## Dependencies
 
@@ -98,4 +89,3 @@ All experiments are documented in the public W&B report including:
 - `wandb` — Experiment tracking and visualization
 - `gdown` — Trained weights download from Google Drive
 
----
