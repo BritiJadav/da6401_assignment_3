@@ -29,7 +29,6 @@ This project implements the full Transformer architecture as described in [Vaswa
 - Language pair: German (de) → English (en)
 - Source: [bentrevett/multi30k](https://huggingface.co/datasets/bentrevett/multi30k)
 
----
 
 ## Model Configuration
 
