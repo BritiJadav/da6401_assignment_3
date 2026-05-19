@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this assignment, you will implement the landmark architecture from the paper "Attention Is All You Need" from scratch using PyTorch. Transitioning from the convolutional neural networks used in previous assignments, you will now build a purely attention-based sequence-to-sequence model. The goal is to develop a Neural Machine Translation (NMT) system capable of translating text from German to English.
+In this assignment, I will implement the landmark architecture from the paper "Attention Is All You Need" from scratch using PyTorch. Transitioning from the convolutional neural networks used in previous assignments, I will now build a purely attention-based sequence-to-sequence model. The goal is to develop a Neural Machine Translation (NMT) system capable of translating text from German to English.
 
 ---
 
@@ -79,30 +79,6 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## Training
-
-```bash
-python train.py
-```
-
----
-
-## Inference
-
-The model supports end-to-end German → English translation:
-
-```python
-from model import Transformer
-
-model = Transformer().to(device)
-model.eval()
-
-english = model.infer("Ein Hund rennt durch das Gras.")
-print(english)  # "a dog runs through the grass ."
-```
-
----
-
 ## W&B Report
 
 All experiments are documented in the public W&B report including:
@@ -124,7 +100,3 @@ All experiments are documented in the public W&B report including:
 - `gdown` — Trained weights download from Google Drive
 
 ---
-
-## Reference
-
-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). **Attention Is All You Need**. *Advances in Neural Information Processing Systems*, 30.
