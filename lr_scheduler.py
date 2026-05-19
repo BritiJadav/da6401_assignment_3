@@ -65,7 +65,7 @@ class NoamScheduler(LRScheduler):
         return [base_lr * scale for base_lr in self.base_lrs]
 
 
-# Helper - do NOT modify
+# Helper
 
 def get_lr_history(
     d_model: int,
